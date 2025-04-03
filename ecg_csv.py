@@ -2,7 +2,7 @@ import serial
 import csv
 import time
 
-# COM3 for Windows, /dev/ttyUSB0 for Linux and mac
+# COM3 for Windows
 arduino_port = "/dev/cu.usbserial-022F0461"
 baud_rate = 9600
 csv_filename = "INSERT_FILE_PATH.csv"
