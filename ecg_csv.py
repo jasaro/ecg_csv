@@ -5,7 +5,7 @@ import time
 # COM3 for Windows, /dev/ttyUSB0 for Linux and mac
 arduino_port = "/dev/cu.usbserial-022F0461"
 baud_rate = 9600
-csv_filename = "/Users/jasaro/Desktop/ecg_data_no_adhesive.csv"
+csv_filename = "INSERT_FILE_PATH.csv"
 
 # Open serial connection
 ser = serial.Serial(arduino_port, baud_rate, timeout=1)
